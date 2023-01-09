@@ -1,12 +1,50 @@
 
 body{
-  padding: 10px;
+  
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2099EA;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-bar li {
+  float: left;
+  border-right: 1px solid #bbb;
+
+}
+
+.nav-bar .last-child-cart{
+  border-left: 1px solid #bbb;
+}
+
+.nav-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.nav-bar .active {
+  background-color: #04AA6D;
 }
 
 header img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
   width: 50%;
   }
   
@@ -47,7 +85,7 @@ header h2 {
   text-align: center;
   cursor: pointer;
   width: 100%;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .card button:hover {
