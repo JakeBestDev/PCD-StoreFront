@@ -1,18 +1,40 @@
+
+body{
+  padding: 10px;
+}
+
+header img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+  
+header h2 {
+  background-color: #2099EA;
+  color: white;
+}
+
+
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 400px;
-  height: 300px;
   margin: auto;
   text-align: center;
   font-family: arial;
 }
 
 .card td {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
   padding: 10px;
 }
 
+.card td img {
+  max-width: 300px;
+}
+
 .price {
-  color: grey;
+  background-color: #2099EA;
+  color: white;
   font-size: 22px;
 }
 
@@ -21,7 +43,7 @@
   outline: 0;
   padding: 12px;
   color: white;
-  background-color: #000;
+  background-color: #2099EA;
   text-align: center;
   cursor: pointer;
   width: 100%;
